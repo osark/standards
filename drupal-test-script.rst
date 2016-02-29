@@ -1,3 +1,6 @@
+Drupal Testing Scripts
+######################
+
 Sometimes you want to test a function that needs Drupal to be fully
 strapped without waiting for certain user action.
 

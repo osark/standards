@@ -1,5 +1,5 @@
 Send Multi part Mail in Drupal 7/8
-==================================
+##################################
 
 Resources
 ---------
@@ -16,7 +16,7 @@ Resources
    Type <https://www.w3.org/Protocols/rfc1341/7_2_Multipart.html>`__ .
 
 Why Multi-Part Email is Important
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------
 
 -  Most of Emails reported as spam and not deliver to client mail, So
    there was steps you must follow when you send email to limit spam
@@ -28,7 +28,7 @@ Why Multi-Part Email is Important
    if Client Application able to parse HTML tags .
 
 Implementation in Drupal 7
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 .. code:: bash
 
@@ -39,9 +39,9 @@ Implementation in Drupal 7
        must get mail manager service to send mails .
 
 Implementation in Drupal 8
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
-.. code:: bash
+.. code:: php
 
     class DefaultController implements ContainerAwareInterface {
         
@@ -82,7 +82,7 @@ Implementation in Drupal 8
 -  Now open your ``module_name.module`` file and implement hook\_mail
    function
 
-.. code:: bash
+.. code:: php
 
     function module_name_mail($key, &$message, $params) {
 
