@@ -11,6 +11,15 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   Introduction <home.rst>
+   Zen Coding and Netbeans Templates <zen-coding-nb-templates>
+   Git Tips and Tricks <git-tips-tricks>
+   Linux System Administration <linux-administration>
+   Drupal Gotcha <drupal-gotcha>
+   Front-end Patterns <frontend-patterns>
+   Node.js Version Updates <node-update>
+   Drupal 8 Reference <drupal-8-ref>
+
 
 
 Indices and tables
